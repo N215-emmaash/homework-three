@@ -1,5 +1,5 @@
 .body3 {
-  margin: auto;
+  margin: 0 auto;
   width: 1280px;
   height: 100%;
 
@@ -106,10 +106,19 @@
       border-color: #79addc;
     }
   }
-  .submit-box {
+  .submit {
+    margin: 0 auto;
     width: 813px;
     height: 61px;
+    padding: 20px;
     background-color: #79addc;
-    border-radius: 20px;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: Gill Sans;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 50px;
   }
 }

@@ -223,7 +223,7 @@ nav a {
 }
 
 .body3 {
-  margin: auto;
+  margin: 0 auto;
   width: 1280px;
   height: 100%;
 }
@@ -319,11 +319,20 @@ nav a {
   height: 192px;
   border-color: #79addc;
 }
-.body3 .submit-box {
+.body3 .submit {
+  margin: 0 auto;
   width: 813px;
   height: 61px;
+  padding: 20px;
   background-color: #79addc;
-  border-radius: 20px;
+  border-radius: 30px;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-family: Gill Sans;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 50px;
 }
 
 @font-face {
@@ -333,6 +342,27 @@ nav a {
 @font-face {
   font-family: Nova;
   src: url(../css/fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+.footer {
+  margin: 0 auto;
+  width: 1280px;
+  height: 100px;
+  background-color: #79addc;
+  margin-top: 450px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer p {
+  color: white;
+  font-size: 18px;
+  font-family: Gill Sans;
+  text-align: center;
+  padding: 10px;
+}
+.footer .icon {
+  color: white;
+  font-size: 15px;
 }
 
 /*# sourceMappingURL=styles.css.map */
