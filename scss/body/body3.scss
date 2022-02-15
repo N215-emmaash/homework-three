@@ -14,15 +14,15 @@
     }
     .first-line {
       margin: 0 auto;
-      padding: 10px;
+      padding: 20px;
 
       input {
-        
-        ::placeholder{
+        ::placeholder {
           color: black;
-        font-size: 18px;
-        font-family: Gill Sans;
-        font-weight: lighter;}
+          font-size: 18px;
+          font-family: Gill Sans;
+          font-weight: lighter;
+        }
       }
       .box {
         width: 344px;
@@ -35,5 +35,81 @@
         border-color: #79addc;
       }
     }
+  }
+  .second-line {
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .check {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-right: 12px;
+      padding-right: 15px;
+
+      input {
+        width: 698px;
+        height: 60px;
+        border-color: #79addc;
+      }
+
+      img {
+        width: 19px;
+        height: 19px;
+      }
+    }
+    p {
+      color: black;
+      font-size: 18px;
+      font-family: Gill Sans;
+    }
+  }
+  .third-line {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .adult {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+
+      p {
+        color: black;
+        font-size: 18px;
+        font-family: Gill Sans;
+        text-align: center;
+        padding: 10px;
+      }
+      input {
+        width: 103px;
+        height: 60px;
+        border-color: #79addc;
+      }
+
+      img {
+        width: 19px;
+        height: 19px;
+      }
+    }
+  }
+  .fourth-line {
+    margin: 0 auto;
+    padding: 20px;
+
+    input {
+      width: 818px;
+      height: 192px;
+      border-color: #79addc;
+    }
+  }
+  .submit-box {
+    width: 813px;
+    height: 61px;
+    background-color: #79addc;
+    border-radius: 20px;
   }
 }

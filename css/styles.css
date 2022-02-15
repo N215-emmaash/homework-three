@@ -238,7 +238,7 @@ nav a {
 }
 .body3 .bookingform .first-line {
   margin: 0 auto;
-  padding: 10px;
+  padding: 20px;
 }
 .body3 .bookingform .first-line input ::placeholder {
   color: black;
@@ -255,6 +255,75 @@ nav a {
   width: 458px;
   height: 60px;
   border-color: #79addc;
+}
+.body3 .second-line {
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.body3 .second-line .check {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 12px;
+  padding-right: 15px;
+}
+.body3 .second-line .check input {
+  width: 698px;
+  height: 60px;
+  border-color: #79addc;
+}
+.body3 .second-line .check img {
+  width: 19px;
+  height: 19px;
+}
+.body3 .second-line p {
+  color: black;
+  font-size: 18px;
+  font-family: Gill Sans;
+}
+.body3 .third-line {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.body3 .third-line .adult {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.body3 .third-line .adult p {
+  color: black;
+  font-size: 18px;
+  font-family: Gill Sans;
+  text-align: center;
+  padding: 10px;
+}
+.body3 .third-line .adult input {
+  width: 103px;
+  height: 60px;
+  border-color: #79addc;
+}
+.body3 .third-line .adult img {
+  width: 19px;
+  height: 19px;
+}
+.body3 .fourth-line {
+  margin: 0 auto;
+  padding: 20px;
+}
+.body3 .fourth-line input {
+  width: 818px;
+  height: 192px;
+  border-color: #79addc;
+}
+.body3 .submit-box {
+  width: 813px;
+  height: 61px;
+  background-color: #79addc;
+  border-radius: 20px;
 }
 
 @font-face {
