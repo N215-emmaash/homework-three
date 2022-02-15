@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+nav {
+  height: 92.5px;
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-family: Gill Sans;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/hero-travel-fly.jpg);
+  width: 1280px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: -92.5px;
+}
+.hero h1 {
+  color: white;
+  font-size: 60px;
+  font-family: Nova;
+  font-weight: thin;
+  text-align: center;
+  padding-top: 162px;
+  margin: 0 auto;
+}
+.hero p {
+  color: white;
+  font-size: 20px;
+  font-family: Gill Sans;
+  font-style: italic;
+  font-weight: thin;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  width: 712px;
+  margin: 0 auto;
+}
+.hero .read-more {
+  background-color: #79addc;
+  width: 122px;
+  height: 40px;
+  margin: 0 auto;
+}
+.hero .read-more h2 {
+  color: white;
+  font-size: 15px;
+  font-family: Gill Sans;
+  font-style: normal;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.body2 {
+  width: 1280px;
+  margin: 0 auto;
+  height: 304px;
+  display: flex;
+  align-items: center;
+  justify-items: space-around;
+}
+.body2 .tours {
+  margin: 0 auto;
+  height: 304px;
+  width: 1000px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: -50px;
+}
+.body2 .tours .tour-pic {
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-01.jpg);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+.body2 .tours .tour-pic .p {
+  color: white;
+  font-size: 60px;
+  font-weight: thin;
+  font-family: Gill Sans;
+}
+.body2 .tours .tour-pic p {
+  color: white;
+  font-size: 30px;
+  font-weight: thin;
+  font-family: Gill Sans;
+}
+.body2 .tours .tour-pic .learn-more {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 20px;
+  margin-left: 33px;
+  position: absolute;
+  bottom: 20px;
+}
+.body2 .tours .tour-pic .learn-more h2 {
+  color: white;
+  font-size: 15px;
+  font-family: Gill Sans;
+  font-style: normal;
+  text-align: center;
+  padding-top: 10px;
+}
+.body2 .tours .tour-pic2 {
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-04.jpg);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+.body2 .tours .tour-pic2 .p {
+  color: white;
+  font-size: 60px;
+  font-weight: thin;
+  font-family: Gill Sans;
+}
+.body2 .tours .tour-pic2 p {
+  color: white;
+  font-size: 30px;
+  font-weight: thin;
+  font-family: Gill Sans;
+}
+.body2 .tours .tour-pic2 .learn-more {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 20px;
+  margin-left: 33px;
+  position: absolute;
+  bottom: 20px;
+}
+.body2 .tours .tour-pic2 .learn-more h2 {
+  color: white;
+  font-size: 15px;
+  font-family: Gill Sans;
+  font-style: normal;
+  text-align: center;
+  padding-top: 10px;
+}
+.body2 .tours .tour-pic3 {
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-03.jpg);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+.body2 .tours .tour-pic3 .p {
+  color: white;
+  font-size: 60px;
+  font-weight: thin;
+  font-family: Gill Sans;
+}
+.body2 .tours .tour-pic3 p {
+  color: white;
+  font-size: 30px;
+  font-weight: thin;
+  font-family: Gill Sans;
+}
+.body2 .tours .tour-pic3 .learn-more {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 20px;
+  margin-left: 33px;
+  position: absolute;
+  bottom: 20px;
+}
+.body2 .tours .tour-pic3 .learn-more h2 {
+  color: white;
+  font-size: 15px;
+  font-family: Gill Sans;
+  font-style: normal;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.body3 {
+  margin: auto;
+  width: 1280px;
+  height: 100%;
+}
+.body3 .bookingform {
+  width: 900px;
+  margin: 0 auto;
+}
+.body3 .bookingform h1 {
+  color: black;
+  font-size: 60px;
+  font-family: Nova;
+}
+.body3 .bookingform .first-line {
+  margin: 0 auto;
+  padding: 10px;
+}
+.body3 .bookingform .first-line input ::placeholder {
+  color: black;
+  font-size: 18px;
+  font-family: Gill Sans;
+  font-weight: lighter;
+}
+.body3 .bookingform .first-line .box {
+  width: 344px;
+  height: 60px;
+  border-color: #79addc;
+}
+.body3 .bookingform .first-line .box2 {
+  width: 458px;
+  height: 60px;
+  border-color: #79addc;
+}
+
+@font-face {
+  font-family: Gill Sans;
+  src: url(../css/fonts/GillSans.ttc);
+}
+@font-face {
+  font-family: Nova;
+  src: url(../css/fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+
+/*# sourceMappingURL=styles.css.map */
